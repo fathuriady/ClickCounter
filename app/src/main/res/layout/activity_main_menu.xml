@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fathu.clickcounter.MainMenu"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/titlemainmenu"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Counter"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMulai"
+        android:padding="15dp"
+        android:text="Dzikir setelah shalat"
+        android:layout_below="@+id/titlemainmenu"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        />
+
+
+
+
+</RelativeLayout>

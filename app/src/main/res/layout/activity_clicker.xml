@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJudul"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAllCaps="true"
+        android:text="judul"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/txtCounter"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        android:text="COUNTER"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="90sp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgLafal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        />
+    <Button
+        android:id="@+id/btnSound"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="15dp"
+        android:text="play"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnCount"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="count"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:textSize="30dp"
+        />
+
+
+
+</LinearLayout>
